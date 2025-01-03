@@ -22,7 +22,7 @@ const chainMaker = {
     return this;
   },
   reverseChain() {
-    this.arr = this.arr.reverce();
+    this.arr = this.arr.reverse();
     return this;
   },
   finishChain() {
