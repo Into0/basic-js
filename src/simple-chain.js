@@ -18,7 +18,7 @@ const chainMaker = {
       this.arr = [];
       throw new Error("You can't remove incorrect link!");
     }
-    this.arr = this.arr.toSpliced(position - 1, 1);
+    this.arr.splice(position - 1, 1);
     return this;
   },
   reverseChain() {
